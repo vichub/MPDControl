@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MPDcontrol</string>
+    <string name="screen_title">RPi Music Player Control</string>
+    <string name="action_settings">Connect</string>
+    <string name="action_load">Load playlist</string>
+    <string name="return_value">Command sent</string>
+    <string name="no_return_value">Command failed</string>
+    <string name="strInfo">Quick start:\n\r
+    Clear = clear playlist\n\r AmosAndAndy Box_13 Bright_Star NightBeat\n\rBroadway_Is_My_Beat OurMissBrooks
+    \n\rPlaylist 1 = Dragnet
+    \n\rPlaylist 2 = Our Miss Brooks
+    \n\rPlaylist 3 = TBD</string>
+    <string name="strInfoland">Quick start:\n\r
+    Clear = clear playlist
+    \n\rPlaylists\n\r 1 = Dragnet 2 = Our Miss Brooks 3 = TBD</string>
+    <string name="btnPlay">Play</string>
+    <string name="PLAYCMD">play</string>
+    <string name="btnStop">Stop</string>
+    <string name="STOPCMD">stop</string>
+    <string name="btnNext">Next</string>
+    <string name="NEXTCMD">next</string>
+    <string name="btnRandomOff">Random\nOff</string>
+    <string name="RANDOFFCMD">random 0</string>
+    <string name="btnRandomOn">Random\nOn</string>
+    <string name="RANDONCMD">random 1</string>
+    <string name="btnSingleOff">Single\nOff</string>
+    <string name="SINGOFFCND">single 0</string>
+    <string name="btnSingleOn">Single\nOn</string>
+    <string name="SINGONCND">single 1</string>
+    <string name="btnVolUp">VolUp</string>
+    <string name="VOLUPCMD">setvol 82</string>
+    <string name="btnVolDn">VolDn</string>
+    <string name="VOLDNCMD">setvol 75</string>
+    <string name="btnPauseOn">Pause on</string>
+    <string name="PAUSEONCMD">pause 1</string>
+    <string name="btnPauseOff">Pause Off</string>
+    <string name="PAUSEOFFCMD">pause 0</string>
+    <string name="btnConnect">Ver. 2.5 Status = </string>
+    <string name="lblHostIP">Host IP</string>
+    <string name="lblHostPort">Host Port</string>
+    <string name="edtPosFeedBack">Connection successful</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="btnClearPlaylist">Clear</string>
+    <string name="btnLoad1">Load 1</string>
+    <string name="LOAD1CMD">load Dragnet</string>
+    <string name="btnLoad2">Load 2</string>
+    <string name="LOAD2CMD">load OurMissBrooks</string>
+    <string name="CLEARCMD">clear</string>
+    <string name="txtHelp">Set server connection parameters in the Action menu.
+        </string>
+    <string name="strCntMessage">Fill in Host IP and Port then SAVE again.</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_main">
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="6"
+            android:id="@+id/allGrid">
+
+            <EditText
+                android:id="@+id/MainTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_title"
+                android:background="@color/accent_material_dark"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="none"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:gravity="center_horizontal"
+                android:layout_row="1"
+                android:layout_columnSpan="4">
+            </EditText>
+
+            <Button
+                android:id="@+id/cmdButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnPlay"
+                android:background="#ff29ff2a"
+                android:layout_row="2"
+                android:layout_column="0">
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnStop"
+                android:background="#ffff8080"
+                style="@style/AppTheme"
+                android:textStyle="bold"
+                android:layout_row="2"
+                android:layout_column="1">
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnNext"
+                android:textStyle="bold"
+                android:background="#ff29ff2a"
+                android:layout_row="2"
+                android:layout_column="2">
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnPauseOn"
+                android:textSize="10sp"
+                android:layout_column="3">
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnPauseOff"
+                android:textSize="10sp">
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnVolDn" >
+            </Button>
+
+            <Button
+                android:id="@+id/cmdButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/btnVolUp" >
+            </Button>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spare"
+                android:id="@+id/button"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnRandomOn"
+                android:id="@+id/btnRandomOn"
+                android:onClick="onClick"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnRandomOff"
+                android:id="@+id/btnRandomOff"
+                android:onClick="onClick"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSingleOn"
+                android:id="@+id/btnSingOn"
+                android:onClick="onClick"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSingleOff"
+                android:id="@+id/btnSingOff"
+                android:onClick="onClick"
+                android:textSize="10sp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnClearPlaylist"
+                android:id="@+id/btnClear"
+                android:hint="Clear playlist"
+                android:onClick="onClick"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnLoad1"
+                android:id="@+id/btnLoad1"
+                android:hint="Load playlist"
+                android:onClick="onClick"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnLoad2"
+                android:id="@+id/btnLoad2"
+                android:onClick="onClick"
+                android:hint="Load playlist"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick"
+                android:id="@+id/btnPlaylist"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="@string/btnConnect"
+                android:id="@+id/cmdConnect"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:onClick="onClick"
+                android:textColor="#000000"
+                android:background="#00ff00"
+                android:layout_columnSpan="4" />
+        </GridLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:id="@+id/btnRow5">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relLayout"
+        android:background="#e1fff2d0">
+
+    </RelativeLayout>
+
+</LinearLayout>

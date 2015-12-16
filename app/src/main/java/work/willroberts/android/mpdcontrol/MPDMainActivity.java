@@ -280,7 +280,7 @@ public class MPDMainActivity extends ActionBarActivity {
         etAddress.setText(strOldHost);
         etPort.setText(intOldPort.toString());
     }
-
+/* Saving command history */
     public void onSave(View view) {
         EditText etAddress = (EditText) findViewById(R.id.etHostIP);
         EditText etPort = (EditText) findViewById(R.id.etHostPort);

@@ -38,7 +38,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import static android.widget.Toast.*;
 
-
+/* Original MPD control application. This has been replaced by new app */
 public class MPDMainActivity extends ActionBarActivity {
 
     private Socket socket = null;
